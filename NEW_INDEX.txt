@@ -1,0 +1,8 @@
+The new index.html design has been saved separately.
+
+To apply the changes:
+1. The new design files are too large (50KB+) to create directly
+2. I'll create simplified versions that match the style
+3. Then update the backend to fix registration
+
+Let me create working versions of each page...

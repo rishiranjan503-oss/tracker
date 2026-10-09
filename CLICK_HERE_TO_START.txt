@@ -1,0 +1,51 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║       🚀 SMART TIME & WELLNESS SYSTEM - INSTANT START 🚀       ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 TO RUN YOUR APPLICATION:
+
+   ┌─────────────────────────────────────────┐
+   │  👉 DOUBLE-CLICK: START.bat            │
+   └─────────────────────────────────────────┘
+
+⏱️  WAIT: 30-60 seconds for first startup
+
+🌐 OPEN: http://localhost:8080/tracker/
+
+🔐 LOGIN:
+   Email: admin@smartwellness.com
+   Password: admin123
+
+═══════════════════════════════════════════════════════════════
+
+📝 ALTERNATIVE METHODS:
+
+1️⃣  Command Prompt (Recommended):
+   • Press Windows Key + R
+   • Type: cmd
+   • Run: cd C:\Users\Lenovo\OneDrive\Documents\tracker
+   • Run: START.bat
+
+2️⃣  Manual Maven:
+   • Open Command Prompt
+   • Run: cd C:\Users\Lenovo\OneDrive\Documents\tracker
+   • Run: mvn jetty:run
+
+═══════════════════════════════════════════════════════════════
+
+⚠️  IMPORTANT:
+
+   ✅ No Tomcat installation needed!
+   ✅ No manual deployment needed!
+   ✅ MySQL is optional (for initial testing)
+   ✅ Use Command Prompt (cmd.exe), NOT PowerShell
+
+🛑 TO STOP: Press Ctrl + C in command window
+
+═══════════════════════════════════════════════════════════════
+
+📚 FOR MORE DETAILS: Read HOW_TO_RUN.md
+
+═══════════════════════════════════════════════════════════════
