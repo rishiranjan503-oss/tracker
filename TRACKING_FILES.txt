@@ -1,0 +1,99 @@
+====================================
+  SMART TRACKER - TRACKING FILES
+====================================
+
+📁 Three Main Tracking Files:
+====================================
+
+1️⃣  ACTIVITY_LOG.txt
+    • Tracks ALL user activities
+    • Records: Login successes, failed logins, new user registrations
+    • Location: Project root directory
+    • Updates: Automatically when someone logs in or registers
+    • Format: Timestamp | Event Type | Email | Details
+    • Size Management: Auto-cleans when > 1MB (keeps last 5000 lines)
+    
+    Example Entry:
+    2026-10-09 15:45:52 | LOGIN SUCCESS | john@example.com | IP: 127.0.0.1
+    2026-10-09 15:47:30 | NEW USER | jane.doe@example.com | Name: Jane Doe | Role: USER
+
+2️⃣  SERVER_STATUS.txt
+    • Shows current server status (ON/OFF)
+    • Last updated timestamp
+    • Connection info: Port, URL, context path
+    • Demo login credentials for quick reference
+    • Location: Project root directory
+    • Updates: Automatically whenever a user logs in/out
+    
+    Shows:
+    - Server Status: ON/OFF
+    - Last Updated: Current timestamp
+    - Connection Details: Port 8080, URL http://localhost:8080/tracker/
+
+3️⃣  ACTIVITY_LOG.txt Statistics (added at session end)
+    • Total successful logins
+    • Total new user registrations
+    • Total failed login attempts
+    • Last activity timestamp
+
+====================================
+📌 HOW TO USE:
+====================================
+
+VIEW LOGIN HISTORY:
+• Open ACTIVITY_LOG.txt
+• Look for lines with "LOGIN SUCCESS" or "LOGIN FAILED"
+• Each entry shows: timestamp, email, IP address, status
+
+VIEW NEW USER REGISTRATIONS:
+• Open ACTIVITY_LOG.txt
+• Look for lines with "NEW USER"
+• Each entry shows: timestamp, email, name, role
+
+CHECK SERVER STATUS:
+• Open SERVER_STATUS.txt
+• See if server is ON or OFF
+• Check last update time
+• Get quick access credentials
+
+UNDERSTAND THE LOGS:
+Login Entry:     2026-10-09 15:45:52 | LOGIN SUCCESS | user@email.com | IP: 127.0.0.1
+Failed Entry:    2026-10-09 15:46:15 | LOGIN FAILED | user@email.com | Reason: Invalid password | IP: 127.0.0.1
+Registration:    2026-10-09 15:47:30 | NEW USER | newuser@email.com | Name: John Doe | Role: USER
+
+====================================
+🔄 AUTOMATIC FEATURES:
+====================================
+
+✓ Logs created automatically on first login
+✓ Events logged automatically when user logins/registers
+✓ File cleaned automatically when > 1MB
+✓ Server status updated automatically on each login
+✓ Single file maintenance (no multiple scattered logs)
+✓ Timestamp on all entries for easy tracking
+✓ IP addresses recorded for security audit
+
+====================================
+📊 EXAMPLE SESSION:
+====================================
+
+When user logs in:
+1. ACTIVITY_LOG.txt gets new entry: "15:45:52 | LOGIN SUCCESS | john@example.com"
+2. SERVER_STATUS.txt updates with current time
+3. Console shows activity in terminal
+4. Next login attempt will append to same ACTIVITY_LOG.txt
+
+When user registers:
+1. ACTIVITY_LOG.txt gets new entry: "15:47:30 | NEW USER | jane@example.com"
+2. User can now login with their credentials
+3. Any future login by that user recorded in ACTIVITY_LOG.txt
+
+====================================
+💾 FILE LOCATIONS:
+====================================
+
+ACTIVITY_LOG.txt  → c:\Users\Lenovo\OneDrive\Documents\tracker\ACTIVITY_LOG.txt
+SERVER_STATUS.txt → c:\Users\Lenovo\OneDrive\Documents\tracker\SERVER_STATUS.txt
+TRACKING_FILES.txt → c:\Users\Lenovo\OneDrive\Documents\tracker\TRACKING_FILES.txt
+
+====================================

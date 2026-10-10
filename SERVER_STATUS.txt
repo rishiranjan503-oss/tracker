@@ -1,0 +1,15 @@
+====================================
+  SMART TRACKER - SERVER STATUS
+====================================
+
+Status: ON
+Last Updated: 2026-10-10 13:14:51
+Port: 8080
+Context: /tracker
+URL: http://localhost:8080/tracker/
+
+Demo Credentials:
+- john@example.com / student123
+- admin@smartwellness.com / admin123
+
+====================================
